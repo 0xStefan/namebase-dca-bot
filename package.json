@@ -1,0 +1,17 @@
+{
+  "name": "namebase-dca-bot",
+  "version": "1.0.0",
+  "description": "A dollar cost averaging bot for the cryptocurrency exchange namebase.io (Handshake HNS)",
+  "main": "namebase-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Christman",
+  "license": "MIT",
+  "dependencies": {
+    "btc-value": "^2.1.1",
+    "dotenv": "^4.0.0",
+    "namebase-exchange-api": "0.0.9",
+    "node-schedule": "^1.2.5"
+  }
+}
